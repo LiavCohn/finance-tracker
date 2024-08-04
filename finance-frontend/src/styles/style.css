@@ -1,0 +1,143 @@
+.all-transactions {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+/* Home Page Styles */
+.home-page {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin: auto;
+}
+
+.home-page h1 {
+  color: #333;
+}
+
+.home-page form {
+  margin-bottom: 20px;
+}
+
+.home-page form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.home-page form input,
+.home-page form select,
+.home-page form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.home-page form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.home-page form button:hover {
+  background-color: #45a049;
+}
+
+.home-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.home-page li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.home-page li:last-child {
+  border-bottom: none;
+}
+
+/* Login and Register Page Styles */
+.login-page,
+.register-page {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 400px; /* Adjust the max-width as needed */
+}
+
+.login-page h1,
+.register-page h1 {
+  color: #333;
+  text-align: center;
+}
+
+.login-page form,
+.register-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-page form label,
+.register-page form label {
+  margin-bottom: 10px;
+}
+
+.login-page form input,
+.register-page form input,
+.login-page form button,
+.register-page form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.login-page form button,
+.register-page form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-page form button:hover,
+.register-page form button:hover {
+  background-color: #45a049;
+}
+
+.login-page p,
+.register-page p {
+  text-align: center;
+}
+
+.login-page a,
+.register-page a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.login-page a:hover,
+.register-page a:hover {
+  text-decoration: underline;
+}
